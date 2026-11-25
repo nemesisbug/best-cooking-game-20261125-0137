@@ -1,0 +1,35 @@
+/* Ember & Oak — page chrome. The game itself is drawn on the canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #17100b;
+  color: #f3e6cf;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#game {
+  width: min(1280px, 96vw);
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.65), 0 0 0 1px #4a2f1d;
+  background: #241811;
+  cursor: pointer;
+}
+
+#hint {
+  margin: 12px 0 0;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #c9a06a;
+}
